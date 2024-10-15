@@ -1,56 +1,56 @@
 [
     {
       "title": "OCR Aksara Batak",
-      "image": "/assets/images/IS01_BatakRencongPallawa.png",
+      "image": "/assets/images/intelligentSystem/IS01_BatakRencongPallawa.png",
       "description": "Technology used: Tensorflow, EfficientNetB0, MobileNet, InceptionV3, DenseNet, Resnet50",
       "link": "https://github.com/Oktovivian/Indonesian-Traditional-Script-Classifier-Batak-Rencong-Pallawa"
     },
     {
       "title": "OCR Aksara Rencong",
-      "image": "/assets/images/IS01_BatakRencongPallawa.png",
+      "image": "/assets/images/intelligentSystem/IS01_BatakRencongPallawa.png",
       "description": "Technology used: Tensorflow, EfficientNetB0, MobileNet, InceptionV3, DenseNet, Resnet50",
       "link": "https://github.com/Oktovivian/Indonesian-Traditional-Script-Classifier-Batak-Rencong-Pallawa"
     },
     {
       "title": "OCR Aksara Pallawa",
-      "image": "/assets/images/IS01_BatakRencongPallawa.png",
+      "image": "/assets/images/intelligentSystem/IS01_BatakRencongPallawa.png",
       "description": "Technology used: Tensorflow, EfficientNetB0, MobileNet, InceptionV3, DenseNet, Resnet50",
       "link": "https://github.com/Oktovivian/Indonesian-Traditional-Script-Classifier-Batak-Rencong-Pallawa"
   
       },
     {
       "title": "OCR Aksara Kawi",
-      "image": "/assets/images/IS02_KawiJawiLontara.png",
+      "image": "/assets/images/intelligentSystem/IS02_KawiJawiLontara.png",
       "description": "Technology used: Tensorflow, EfficientNetB0, MobileNet, InceptionV3, DenseNet, Resnet50",
       "link": "https://github.com/Oktovivian/Indonesian-Traditional-Script-Classifier-Jawi-Kawi-Lontara"
     },
     {
       "title": "OCR Aksara Jawi",
-      "image": "/assets/images/IS02_KawiJawiLontara.png",
+      "image": "/assets/images/intelligentSystem/IS02_KawiJawiLontara.png",
       "description": "Technology used: Tensorflow, EfficientNetB0, MobileNet, InceptionV3, DenseNet, Resnet50",
       "link": "https://github.com/Oktovivian/Indonesian-Traditional-Script-Classifier-Jawi-Kawi-Lontara"
       },
     {
       "title": "OCR Aksara Lontara",
-      "image": "/assets/images/IS02_KawiJawiLontara.png",
+      "image": "/assets/images/intelligentSystem/IS02_KawiJawiLontara.png",
       "description": "Technology used: Tensorflow, EfficientNetB0, MobileNet, InceptionV3, DenseNet, Resnet50",
       "link": "https://github.com/Oktovivian/Indonesian-Traditional-Script-Classifier-Jawi-Kawi-Lontara"
       },
     {
       "title": "OCR Aksara Jawa",
-      "image": "/assets/images/IS03_JawaSundaBali.png",
+      "image": "/assets/images/intelligentSystem/IS03_JawaSundaBali.png",
       "description": "Technology used: Tensorflow, EfficientNetB0, MobileNet, InceptionV3, DenseNet, Resnet50",
       "link": "https://github.com/Oktovivian/Indonesian-Traditional-Script-Classifier-Java-Sunda-Bali"
     },
     {
       "title": "OCR Aksara Sunda",
-      "image": "/assets/images/IS03_JawaSundaBali.png",
+      "image": "/assets/images/intelligentSystem/IS03_JawaSundaBali.png",
       "description": "Technology used: Tensorflow, EfficientNetB0, MobileNet, InceptionV3, DenseNet, Resnet50",
       "link": "https://github.com/Oktovivian/Indonesian-Traditional-Script-Classifier-Java-Sunda-Bali"
     },
     {
       "title": "OCR Aksara Bali",
-      "image": "/assets/images/IS03_JawaSundaBali.png",
+      "image": "/assets/images/intelligentSystem/IS03_JawaSundaBali.png",
       "description": "Technology used: Tensorflow, EfficientNetB0, MobileNet, InceptionV3, DenseNet, Resnet50",
       "link": "https://github.com/Oktovivian/Indonesian-Traditional-Script-Classifier-Java-Sunda-Bali"
     }
