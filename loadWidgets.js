@@ -17,6 +17,12 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('.header-container').innerHTML = header;
         document.querySelector('.social-media-container').innerHTML = socialMedia;
         document.querySelector('.footer-container').innerHTML = footer;
+  
+        // Modify the CV link to trigger PDF download
+        const cvLink = document.querySelector('a[href="assets\\CV_Ramadhan Oktovivian Muhammad_DS.pdf"]');
+        if (cvLink) {
+          cvLink.setAttribute('download', 'CV_Ramadhan_Oktovivian_Muhammad.pdf');
+        }
       })
       .catch(error => console.error('Error loading widget:', error));
   });
