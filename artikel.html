@@ -12,52 +12,14 @@
 </head>
 
 <body>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="artikel.html">Artikel</a></li>
-                    <li class="nav-item"><a class="nav-link" href="DataScienceProject.html">Data Science</a></li>
-                    <li class="nav-item"><a class="nav-link" href="IntelligentSystemProject.html">Intelligent System</a></li>
-                    <li class="nav-item"><a class="nav-link" href="softwareEngineeringProject.html">Software Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="assets\CV_Ramadhan Oktovivian Muhammad_DS.pdf">CV</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</header>
+<!-- Navbar will be injected here -->
+<div class="navbar-container"></div>
 
-<div class="container">
-    <!-- Header -->
-    <div class="text-center mt-5">
-      <img src="/assets/images/logo.png" alt="Logo" style="max-width: 150px; margin-top: 10px;"  class="img-fluid">
-      <h4 class="mt-3">Ramadhan Oktovivian Muhammad</h4>
-      <h6 class="text-muted">Autobiographical • My Works • Way of Life</h6>
-    </div>
-</div>
+<!-- Header Section -->
+<div class="header-container"></div>
 
 <!-- Social Media Section -->
-<section class="mt-5">
-  <div class="row justify-content-center">
-    <div class="col-md-6">
-      <div class="text-center mb-3">
-        <a href="https://www.linkedin.com/in/ramadhan-oktovivian-muhammad-7ba575209/" class="me-3 text-decoration-none"><i class="bi bi-linkedin fs-lg"></i></a>
-        <a href="https://github.com/Oktovivian" class="me-3 text-decoration-none"><i class="bi bi-github fs-lg""></i></a>
-        <a href="https://id.quora.com/profile/Ramadhan-Oktovivian-Muhammad" class="me-3 text-decoration-none"><i class="bi bi-quora fs-lg"></i></a> 
-        <a href="https://twitter.com/aManCalledOkto" class="me-3 text-decoration-none"><i class="bi bi-twitter fs-lg"></i></a>
-        <a href="https://medium.com/@oktovivian" class="me-3 text-decoration-none"><i class="bi bi-medium fs-lg"></i></a>
-        <a href="https://www.kaggle.com/oktovivianm" class="text-decoration-none"><i class="bi bi-kaggle fs-lg"></i></a>
-        <a href="mailto:vianokto30@gmail.com" class="text-decoration-none"><i class="bi bi-envelope fs-lg"></i></a>
-      </div>
-    </div>
-  </div>
-</section>
+<section class="social-media-container mt-5"></section>
 
 <section>
   <div class="text-center mt-5">
@@ -135,6 +97,9 @@
     })
     .catch(error => console.error('Error fetching data:', error));
 </script>
+
+<!-- Scripts -->
+<script src="loadWidgets.js"></script>
 
 </body>
 </html>
