@@ -1,0 +1,21 @@
+[
+    {
+      "title": "Data Online News Popularity classification using Ensemble Learning",
+      "image": "/assets/images/DS01-OnlineNewsPopularity.png",
+      "description": "Technology used: scikit learn, pandas, numpy, matplotlib, seaborn",
+      "link": "https://colab.research.google.com/drive/1xV5wAWnmTaINxJgdyRA-3atqqSLGhOSF?usp=sharing#scrollTo=_3WKHAvFWlXp"
+    },
+    {
+      "title": "Predicting Serum Creatinine Levels in Heart Failure Patients using Neural Network",
+      "image": "/assets/images/DS02-SerumCreatinine.png",
+      "description": "Technology used: scikit learn, pandas, numpy, matplotlib, seaborn, gdown",
+      "link": "https://colab.research.google.com/drive/1xV5wAWnmTaINxJgdyRA-3atqqSLGhOSF?usp=sharing#scrollTo=GQRIacmxOJwj"
+    },
+    {
+      "title": "Movie Recommender System using Matrix Factorization",
+      "image": "/assets/images/DS03-MovieRecommenderSystem.png",
+      "description": "Technology used: pandas, numpy, matplotlib",
+      "link": "https://colab.research.google.com/drive/1flp8qdycfepaJVV-3cjvBjdZaXk1T60M?usp=sharing#scrollTo=uvbC1i_vzCIA"
+    }
+  ]
+  

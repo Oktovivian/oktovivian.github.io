@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Konekin Frontend",
+      "image": "/assets/images/OP1-KFE.png",
+      "description": "Technology used: Flutter, Android Studio, Visual Studio Code",
+      "link": "https://github.com/Oktovivian/KonekinFE"
+    },
+    {
+      "title": "Konekin Backend",
+      "image": "/assets/images/OP2-KBE.png",
+      "description": "Technology used: PHP, Laravel, Postman, MySQL, Visual Studio Code",
+      "link": "https://github.com/Oktovivian/konekinBackEnd"
+    },
+    {
+      "title": "One Laundry",
+      "image": "/assets/images/OP3-OL.png",
+      "description": "Technology used: Java, NetBeans, JDBC, MySQL, Swing",
+      "link": "https://github.com/Oktovivian/OneLaundry"
+    },
+    {
+      "title": "Rapsodio",
+      "image": "/assets/images/OP4-RPS.png",
+      "description": "Technology used: Javascript, JQuery, HTML, CSS",
+      "link": "https://github.com/Rapsodio2023/rapsodio.github.io"
+    }
+  ]
+  

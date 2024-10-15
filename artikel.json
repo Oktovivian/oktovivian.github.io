@@ -1,0 +1,63 @@
+[
+    {
+      "title": "Support Vector Machine",
+      "image": "assets/images/SVM.png",
+      "description": "Support Vector Machines (SVM) is a powerful and versatile supervised machine learning algorithm used for classification and regression tasks.",
+      "link": "https://medium.com/@oktovivian/en-ml-week-5-support-vector-machine-c5f0d2be12a3"
+    },
+    {
+      "title": "Linear vs Logistic Regression",
+      "image": "assets/images/linearLogistic.png",
+      "description": "Linear regression is a statistical method used for modeling the relationship between a dependent variable and one or more independent variables by fitting a linear equation to observed data.",
+      "link": "https://medium.com/@oktovivian/en-ml-week-4-linear-regression-and-logistic-regression-e214a3fd2285"
+    },
+    {
+      "title": "Fourier Transform & Discrete Fourier Transform",
+      "image": "assets/images/FTDFT.png",
+      "description": "In digital image processing, the spatial domain refers to the representation of an image as a two-dimensional grid of pixels.",
+      "link": "https://medium.com/@oktovivian/part-1-2-en-spatial-domain-in-digital-image-processing-59e401ed081b"
+    },
+    {
+      "title": "FFT, Frequency Domain Filtering, Discrete Wavelet Transform",
+      "image": "assets/images/FFTDFFDWT.png",
+      "description": "In this section, we will talk about Fast Fourier Transform (FFT), Frequency Domain Filtering, and Discrete Wavelet Transform.",
+      "link": "https://medium.com/@oktovivian/part-2-2-en-spatial-domain-in-digital-image-processing-fft-frequency-domain-filtering-e6f7d7d150d8"
+    },
+    {
+      "title": "Scrum",
+      "image": "assets/images/scrum.png",
+      "description": "Scrum mendorong tim untuk belajar melalui pengalaman, mengatur diri saat bekerja menghadapi masalah.",
+      "link": "https://medium.com/@oktovivian/esd-id-scrum-6a5e876c2d53"
+    },
+    {
+      "title": "Objective Key Result (OKR)",
+      "image": "assets/images/okr.png",
+      "description": "Konsep asli OKR yang berasal dari Intel kemudian menyebar ke perusahaan-perusahaan di Silicon Valley.",
+      "link": "https://medium.com/@oktovivian/motion-id-objective-key-result-okr-1ec01dd6159a"
+    },
+    {
+      "title": "Analisis Data",
+      "image": "assets/images/analisisData.png",
+      "description": "Proses untuk mengubah data mentah menjadi informasi yang berguna. Ini melibatkan pembersihan, transformasi, dan pemodelan data.",
+      "link": "https://medium.com/@oktovivian/analisis-data-4a9a38f28801"
+    },
+    {
+      "title": "Apa itu Data?",
+      "image": "assets/images/whatIsData.png",
+      "description": "Different kinds of information, including information on people, places, objects, events, and concepts, can be represented by data.",
+      "link": "https://medium.com/@oktovivian/introducing-to-data-1feb1c79dd05"
+    },
+    {
+      "title": "Unsupervised Learning",
+      "image": "assets/images/unsupervised.png",
+      "description": "Type of machine learning where the algorithm is trained on a dataset without explicit supervision.",
+      "link": "https://medium.com/@oktovivian/en-week-3-make-you-know-about-unsupervised-learning-64acd8700599"
+    },
+    {
+      "title": "Data Preprocessing",
+      "image": "assets/images/dataPreprocessing.png",
+      "description": "It involves cleaning and transforming raw data into a format that is suitable for analysis or for training machine learning models.",
+      "link": "https://medium.com/@oktovivian/data-preprocessing-e015ae8b5708"
+    }
+  ]
+  

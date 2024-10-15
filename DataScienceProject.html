@@ -62,50 +62,17 @@
   <div class="text-center mt-5">
     <h3>Data Science Project</h3>
     <p style="max-width: 450px; margin: 0 auto;">
-        Arsip proyek Data Sains: klasifikasi, prediksi, analisis data, et al.
+      Arsip proyek Data Sains: klasifikasi, prediksi, analisis data, et al.
     </p>
-
-       <!-- 4 kolom -->
-       <div class="container mt-5">
-        <div class="row">
-          <div class="col-md-3 mb-4">
-            <a href="https://colab.research.google.com/drive/1xV5wAWnmTaINxJgdyRA-3atqqSLGhOSF?usp=sharing#scrollTo=_3WKHAvFWlXp" class="text-decoration-none">
-              <img src="/assets/images/DS01-OnlineNewsPopularity.png" alt="Poster 1" class="img-fluid" style="max-width: 250px;">
-              <div class="mt-1 d-flex justify-content-center">
-                <hr style="border-top: 3px solid #808080; width: 40%;">
-              </div>
-              <h5 class="mt-2" style="color: black;">Data Online News Popularity classification using Ensemble Learning</h5>
-              <p class="mt-2" style="color: #808080;">Technology used: scikit learn, pandas, numpy, matplotlib, seaborn
-              </p>
-            </a>
-          </div>
-          <div class="col-md-3 mb-4">
-            <a href="https://colab.research.google.com/drive/1xV5wAWnmTaINxJgdyRA-3atqqSLGhOSF?usp=sharing#scrollTo=GQRIacmxOJwj" class="text-decoration-none">
-              <img src="/assets/images/DS02-SerumCreatinine.png" alt="Poster 2" class="img-fluid" style="max-width: 250px;">
-              <div class="mt-1 d-flex justify-content-center">
-                <hr style="border-top: 3px solid #808080; width: 40%;">
-              </div>
-              <h5 class="mt-2" style="color: black;">Predicting Serum Creatinine Levels in Heart Failure Patients using Neural Network
-              </h5>
-              <p class="mt-2" style="color: #808080;">Technology used: scikit learn, pandas, numpy, matplotlib, seaborn, gdown
-                </p>
-              </a>
-          </div>
-          <div class="col-md-3 mb-4">
-            <a href="https://colab.research.google.com/drive/1flp8qdycfepaJVV-3cjvBjdZaXk1T60M?usp=sharing#scrollTo=uvbC1i_vzCIA" class="text-decoration-none">
-              <img src="/assets/images/DS03-MovieRecommenderSystem.png" alt="Poster 2" class="img-fluid" style="max-width: 250px;">
-              <div class="mt-1 d-flex justify-content-center">
-                <hr style="border-top: 3px solid #808080; width: 40%;">
-              </div>
-              <h5 class="mt-2" style="color: black;">Movie Recommender System using Matrics Factorization
-              </h5>
-              <p class="mt-2" style="color: #808080;">Technology used: pandas, numpy, matplotlib
-                </p>
-              </a>
-          </div>
-        </div>
+    <!-- Kontainer untuk memuat proyek dari JSON -->
+    <div class="container mt-5">
+      <div class="row" id="data-science-projects">
+        <!-- Proyek-proyek akan dimuat secara dinamis di sini -->
       </div>
+    </div>
+  </div>
 </section>
+
 
 <!-- Divider -->
 <div class="mt-5 d-flex justify-content-center">
@@ -116,6 +83,58 @@
 <footer class="bg-white text-black text-center p-3">
     <p>&copy; 2024 Ramadhan Oktovivian Muhammad</p>
   </footer>
+
+  <script>
+    // Memuat file JSON yang berisi data proyek
+    fetch('dataScienceProject.json')
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById('data-science-projects');
+  
+        // Looping melalui setiap item dalam JSON dan membuat elemen HTML untuk menampilkannya
+        data.forEach(item => {
+          const col = document.createElement('div');
+          col.className = 'col-md-3 mb-4';
+  
+          const a = document.createElement('a');
+          a.href = item.link;
+          a.className = 'text-decoration-none';
+  
+          const img = document.createElement('img');
+          img.src = item.image;
+          img.alt = item.title;
+          img.className = 'img-fluid';
+          img.style.maxWidth = '250px';
+  
+          const hrDiv = document.createElement('div');
+          hrDiv.className = 'mt-1 d-flex justify-content-center';
+          const hr = document.createElement('hr');
+          hr.style.borderTop = '3px solid #808080';
+          hr.style.width = '40%';
+          hrDiv.appendChild(hr);
+  
+          const h5 = document.createElement('h5');
+          h5.className = 'mt-2';
+          h5.style.color = 'black';
+          h5.textContent = item.title;
+  
+          const p = document.createElement('p');
+          p.className = 'mt-2';
+          p.style.color = '#808080';
+          p.textContent = item.description;
+  
+          a.appendChild(img);
+          a.appendChild(hrDiv);
+          a.appendChild(h5);
+          a.appendChild(p);
+  
+          col.appendChild(a);
+          container.appendChild(col);
+        });
+      })
+      .catch(error => console.error('Error fetching data:', error));
+  </script>
+  
   
 </body>
 </html>

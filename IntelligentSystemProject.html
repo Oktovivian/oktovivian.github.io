@@ -67,46 +67,13 @@
     <p style="max-width: 450px; margin: 0 auto;">
         Optical Character Recognition, Semantic Segmentation.
     </p>
-           <!-- 4 kolom -->
-           <div class="container mt-5">
-            <div class="row">
-              <div class="col-md-3 mb-4">
-                <a href="https://github.com/Oktovivian/Indonesian-Traditional-Script-Classifier-Batak-Rencong-Pallawa" class="text-decoration-none">
-                  <img src="/assets/images/IS01_BatakRencongPallawa.png" alt="Poster 1" class="img-fluid" style="max-width: 250px;">
-                  <div class="mt-1 d-flex justify-content-center">
-                    <hr style="border-top: 3px solid #808080; width: 40%;">
-                  </div>
-                  <h5 class="mt-2" style="color: black;">OCR Aksara Batak Rencong Pallawa</h5>
-                  <p class="mt-2" style="color: #808080;">Technology used: Tensorflow, EfficientNetB0, MobileNet, InceptionV3, DenseNet, Resnet50
-                  </p>
-                </a>
-              </div>
-              <div class="col-md-3 mb-4">
-                <a href="https://github.com/Oktovivian/Indonesian-Traditional-Script-Classifier-Jawi-Kawi-Lontara" class="text-decoration-none">
-                  <img src="/assets/images/IS02_KawiJawiLontara.png" alt="Poster 2" class="img-fluid" style="max-width: 250px;">
-                  <div class="mt-1 d-flex justify-content-center">
-                    <hr style="border-top: 3px solid #808080; width: 40%;">
-                  </div>
-                  <h5 class="mt-2" style="color: black;">OCR Aksara Kawi Jawi Lontara
-                  </h5>
-                  <p class="mt-2" style="color: #808080;">Technology used: Tensorflow, EfficientNetB0, MobileNet, InceptionV3, DenseNet, Resnet50
-                    </p>
-                  </a>
-              </div>
-              <div class="col-md-3 mb-4">
-                <a href="https://github.com/Oktovivian/Indonesian-Traditional-Script-Classifier-Java-Sunda-Bali" class="text-decoration-none">
-                  <img src="/assets/images/IS03_JawaSundaBali.png" alt="Poster 2" class="img-fluid" style="max-width: 250px;">
-                  <div class="mt-1 d-flex justify-content-center">
-                    <hr style="border-top: 3px solid #808080; width: 40%;">
-                  </div>
-                  <h5 class="mt-2" style="color: black;">OCR Aksara Jawa Sunda Bali
-                  </h5>
-                  <p class="mt-2" style="color: #808080;">Technology used: Tensorflow, EfficientNetB0, MobileNet, InceptionV3, DenseNet, Resnet50
-                    </p>
-                  </a>
-              </div>
-    
-
+    <!-- Kontainer Proyek -->
+    <div class="container mt-5">
+      <div class="row" id="project-container">
+        <!-- Proyek akan dimuat di sini -->
+      </div>
+    </div>
+  </div>
 </section>
 
 <!-- Divider -->
@@ -118,6 +85,55 @@
 <footer class="bg-white text-black text-center p-3">
     <p>&copy; 2024 Ramadhan Oktovivian Muhammad</p>
   </footer>
-  
+
+    <!-- Script untuk Memuat Data JSON -->
+    <script>
+      fetch('intelligentSystemProject.json')
+        .then(response => response.json())
+        .then(data => {
+          const container = document.getElementById('project-container');
+          data.forEach(item => {
+            const col = document.createElement('div');
+            col.className = 'col-md-3 mb-4';
+    
+            const a = document.createElement('a');
+            a.href = item.link;
+            a.className = 'text-decoration-none';
+    
+            const img = document.createElement('img');
+            img.src = item.image;
+            img.alt = item.title;
+            img.className = 'img-fluid';
+            img.style.maxWidth = '250px';
+    
+            const hrDiv = document.createElement('div');
+            hrDiv.className = 'mt-1 d-flex justify-content-center';
+            const hr = document.createElement('hr');
+            hr.style.borderTop = '3px solid #808080';
+            hr.style.width = '40%';
+            hrDiv.appendChild(hr);
+    
+            const h5 = document.createElement('h5');
+            h5.className = 'mt-2';
+            h5.style.color = 'black';
+            h5.textContent = item.title;
+    
+            const p = document.createElement('p');
+            p.className = 'mt-2';
+            p.style.color = '#808080';
+            p.textContent = item.description;
+    
+            a.appendChild(img);
+            a.appendChild(hrDiv);
+            a.appendChild(h5);
+            a.appendChild(p);
+    
+            col.appendChild(a);
+            container.appendChild(col);
+          });
+        })
+        .catch(error => console.error('Error:', error));
+      </script>
+    
 </body>
 </html>
