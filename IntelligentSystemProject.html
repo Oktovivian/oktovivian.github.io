@@ -86,51 +86,66 @@
     <p>&copy; 2024 Ramadhan Oktovivian Muhammad</p>
   </footer>
 
-    <!-- Script untuk Memuat Data JSON -->
-    <script>
-      fetch('json/intelligentSystemProject.json')
-        .then(response => response.json())
-        .then(data => {
-          const container = document.getElementById('project-container');
-          data.forEach(item => {
-            const col = document.createElement('div');
-            col.className = 'col-md-3 mb-4';
-    
-            const a = document.createElement('a');
-            a.href = item.link;
-            a.className = 'text-decoration-none';
-    
-            const img = document.createElement('img');
-            img.src = item.image;
-            img.alt = item.title;
-            img.className = 'img-fluid';
-            imDiv.className = 'mt-1 d-flex justify-content-center';
-            const hr = document.createElement('hr');
-            hr.style.borderTop = '3px solid #808080';
-            hr.style.width = '40%';
-            hrDiv.appendChild(hr);
-    
-            const h5 = document.createElement('h5');
-            h5.className = 'mt-2';
-            h5.style.color = 'black';
-            h5.textContent = item.title;
-    
-            const p = document.createElement('p');
-            p.className = 'mt-2';
-            p.style.color = '#808080';
-            p.textContent = item.description;
-    
-            a.appendChild(img);
-            a.appendChild(hrDiv);
-            a.appendChild(h5);
-            a.appendChild(p);
-    
-            col.appendChild(a);
-            container.appendChild(col);
-          });
-        })
-        .catch(error => console.error('Error:', error));
-      </script>
+<!-- Script untuk Memuat Data JSON -->
+<script>
+  fetch('json/intelligentSystemProject.json')
+    .then(response => response.json())
+    .then(data => {
+      const container = document.getElementById('project-container');
+      data.forEach(item => {
+        const col = document.createElement('div');
+        col.className = 'col-md-3 mb-4';
+
+        const a = document.createElement('a');
+        a.href = item.link;
+        a.className = 'text-decoration-none';
+
+        const img = document.createElement('img');
+        img.src = item.image;
+        img.alt = item.title;
+        img.className = 'img-fluid';
+        img.style.padding = '10px'; // Added padding to image
+        img.style.maxWidth = '100%'; // Ensure the image fits within the container
+        img.style.height = 'auto'; // Keep image proportions
+
+        // Create a div for the image
+        const imgDiv = document.createElement('div');
+        imgDiv.className = 'mt-1 d-flex justify-content-center';
+        imgDiv.appendChild(img); // Append img to imgDiv
+
+        // Create a div for the horizontal line (hr)
+        const hrDiv = document.createElement('div');
+        hrDiv.className = 'd-flex justify-content-center';
+        const hr = document.createElement('hr');
+        hr.style.borderTop = '2px solid #808080'; // Adjusted thickness and color
+        hr.style.width = '80%'; // Adjusted width for better separation
+        hr.style.marginTop = '15px'; // Added margin for better spacing
+        hr.style.marginBottom = '15px'; // Spacing between the image and description
+        hrDiv.appendChild(hr); // Append hr to hrDiv
+
+        const h5 = document.createElement('h5');
+        h5.className = 'mt-2 text-center'; // Centering title
+        h5.style.color = 'black';
+        h5.textContent = item.title;
+
+        const p = document.createElement('p');
+        p.className = 'mt-2 text-center'; // Centering description
+        p.style.color = '#808080';
+        p.style.fontSize = '14px'; // Adjusted font size for description
+        p.textContent = item.description;
+
+        // Append elements in the correct order
+        a.appendChild(imgDiv); // Append imgDiv to anchor
+        a.appendChild(hrDiv);  // Append hrDiv to anchor
+        a.appendChild(h5);
+        a.appendChild(p);
+
+        col.appendChild(a);
+        container.appendChild(col);
+      });
+    })
+    .catch(error => console.error('Error:', error));
+</script>
 
 </body>
 </html>
