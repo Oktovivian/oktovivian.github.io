@@ -1,57 +1,57 @@
 [
     {
-      "title": "OCR Aksara Batak",
-      "image": "/assets/images/intelligentSystem/IS01_BatakRencongPallawa.png",
-      "description": "Technology used: Tensorflow, EfficientNetB0, MobileNet, InceptionV3, DenseNet, Resnet50",
+      "title": "OCR for Aksara Batak",
+      "image": "/assets/images/intelligentSystem/IS_02_AksaraBatak.png",
+      "description": "1900 images, 20 classes, 6 deep learning models with pretrained, 3 Millions parameters, 97.1% val accuracy",
       "link": "https://github.com/Oktovivian/Indonesian-Traditional-Script-Classifier-Batak-Rencong-Pallawa"
     },
     {
-      "title": "OCR Aksara Rencong",
-      "image": "/assets/images/intelligentSystem/IS01_BatakRencongPallawa.png",
-      "description": "Technology used: Tensorflow, EfficientNetB0, MobileNet, InceptionV3, DenseNet, Resnet50",
+      "title": "OCR for Aksara Rencong",
+      "image": "/assets/images/intelligentSystem/IS_08_AksaraRencong.png",
+      "description": "4496 images, 29 classes, 9 deep learning models with pretrained, 3 Millions parameters, 99.3% val accuracy",
       "link": "https://github.com/Oktovivian/Indonesian-Traditional-Script-Classifier-Batak-Rencong-Pallawa"
     },
     {
-      "title": "OCR Aksara Pallawa",
-      "image": "/assets/images/intelligentSystem/IS01_BatakRencongPallawa.png",
-      "description": "Technology used: Tensorflow, EfficientNetB0, MobileNet, InceptionV3, DenseNet, Resnet50",
+      "title": "OCR for Aksara Pallawa",
+      "image": "/assets/images/intelligentSystem/IS_07_AksaraPallawa.png",
+      "description": "3960 images, 32 classes, 9 deep learning models with pretrained, 3 Millions parameters, 99.6% val accuracy",
       "link": "https://github.com/Oktovivian/Indonesian-Traditional-Script-Classifier-Batak-Rencong-Pallawa"
   
       },
     {
-      "title": "OCR Aksara Kawi",
-      "image": "/assets/images/intelligentSystem/IS02_KawiJawiLontara.png",
-      "description": "Technology used: Tensorflow, EfficientNetB0, MobileNet, InceptionV3, DenseNet, Resnet50",
+      "title": "OCR for Aksara Kawi",
+      "image": "/assets/images/intelligentSystem/IS_05_AksaraKawi.png",
+      "description": "5589 images, 27 classes, 8 deep learning models with pretrained, 3 Millions parameters, 99.3% val accuracy",
       "link": "https://github.com/Oktovivian/Indonesian-Traditional-Script-Classifier-Jawi-Kawi-Lontara"
     },
     {
-      "title": "OCR Aksara Jawi",
-      "image": "/assets/images/intelligentSystem/IS02_KawiJawiLontara.png",
-      "description": "Technology used: Tensorflow, EfficientNetB0, MobileNet, InceptionV3, DenseNet, Resnet50",
-      "link": "https://github.com/Oktovivian/Indonesian-Traditional-Script-Classifier-Jawi-Kawi-Lontara"
-      },
-    {
-      "title": "OCR Aksara Lontara",
-      "image": "/assets/images/intelligentSystem/IS02_KawiJawiLontara.png",
-      "description": "Technology used: Tensorflow, EfficientNetB0, MobileNet, InceptionV3, DenseNet, Resnet50",
+      "title": "OCR for Aksara Jawi",
+      "image": "/assets/images/intelligentSystem/IS_04_AksaraJawi.png",
+      "description": "1450 images, 29 classes, 7 deep learning models with pretrained, 3 Millions parameters, 98.9% val accuracy",
       "link": "https://github.com/Oktovivian/Indonesian-Traditional-Script-Classifier-Jawi-Kawi-Lontara"
       },
     {
-      "title": "OCR Aksara Jawa",
-      "image": "/assets/images/intelligentSystem/IS03_JawaSundaBali.png",
-      "description": "Technology used: Tensorflow, EfficientNetB0, MobileNet, InceptionV3, DenseNet, Resnet50",
+      "title": "OCR for Aksara Lontara",
+      "image": "/assets/images/intelligentSystem/IS_06_AksaraLontara.png",
+      "description": "2299 images, 22 classes, 7 deep learning models with pretrained, 3 Millions parameters, 99.6% val accuracy",
+      "link": "https://github.com/Oktovivian/Indonesian-Traditional-Script-Classifier-Jawi-Kawi-Lontara"
+      },
+    {
+      "title": "OCR for Aksara Jawa",
+      "image": "/assets/images/intelligentSystem/IS_03_AksaraJawa.png",
+      "description": "9995 images, 20 classes, 7 deep learning models with pretrained, 3 Millions parameters, 94.6 val accuracy",
       "link": "https://github.com/Oktovivian/Indonesian-Traditional-Script-Classifier-Java-Sunda-Bali"
     },
     {
-      "title": "OCR Aksara Sunda",
-      "image": "/assets/images/intelligentSystem/IS03_JawaSundaBali.png",
-      "description": "Technology used: Tensorflow, EfficientNetB0, MobileNet, InceptionV3, DenseNet, Resnet50",
+      "title": "OCR for Aksara Sunda",
+      "image": "/assets/images/intelligentSystem/IS_09_AksaraSunda.png",
+      "description": "20224 images, 32 classes, 9 deep leanring models with pretrained, 3 Millions parameters, 98% val accuracy",
       "link": "https://github.com/Oktovivian/Indonesian-Traditional-Script-Classifier-Java-Sunda-Bali"
     },
     {
-      "title": "OCR Aksara Bali",
-      "image": "/assets/images/intelligentSystem/IS03_JawaSundaBali.png",
-      "description": "Technology used: Tensorflow, EfficientNetB0, MobileNet, InceptionV3, DenseNet, Resnet50",
+      "title": "OCR for Aksara Batak",
+      "image": "/assets/images/intelligentSystem/IS_01_AksaraBali.png",
+      "description": "4493 images, 18 classes, 7 deep learning models with pretrained, 3 Millions parameters, 97% val accuracy",
       "link": "https://github.com/Oktovivian/Indonesian-Traditional-Script-Classifier-Java-Sunda-Bali"
     }
   ]
