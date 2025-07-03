@@ -1,5 +1,23 @@
 [
     {
+      "title": " Hotspot-Segmentation-in-Whole-Body-Bone-Scans-for-Cancer-Metastasis-Detection-ICOICT 2025",
+      "image": "assets/images/intelligentSystem/IS_10_ICOICT.png",
+      "description": "This study focuses on the performance of U-Net++ for hotspot segmentation on bone scan images. ",
+      "link": "https://github.com/Oktovivian/Hotspot-Segmentation-in-Whole-Body-Bone-Scans-for-Cancer-Metastasis-Detection-"
+    },
+    {
+      "title": "Whole-Body-Bone-Scan-Image-Segmentation-Using-Pseudo-Labeling",
+      "image": "/assets/images/intelligentSystem/IS_11_UNETPP.png",
+      "description": "This study aims to optimize the U-Net++ architecture for whole-body bone scan image segmentation ",
+      "link": "https://github.com/Oktovivian/Whole-Body-Bone-Scan-Image-Segmentation-Using-Pseudo-Labeling-with-U-NetPlusPlus"
+    },
+    {
+      "title": "Mateng-Ga-Fruit-Ripeness-Classifier-Model",
+      "image": "assets/images/intelligentSystem/IS_12_BANGKIT.png",
+      "description": "Fruit Ripeness Classifier, ensembling deep learning CNN and shallow learning. Consists of two stage: (1) fruit classifier (2) ripe classifier",
+      "link": "https://github.com/Oktovivian/Mateng-Ga-Fruit-Ripeness-Classifier-Model"
+    },
+    {
       "title": "OCR for Aksara Batak",
       "image": "/assets/images/intelligentSystem/IS_02_AksaraBatak.png",
       "description": "1900 images, 20 classes, 6 deep learning models with pretrained, 3 Millions parameters, 97.1% val accuracy",
