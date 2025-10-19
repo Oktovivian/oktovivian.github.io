@@ -12,34 +12,32 @@
 </head>
 
 <body>
-
 <!-- Navbar will be injected here -->
 <div class="navbar-container"></div>
 
 
+
+
 <section>
   <div class="text-center mt-5">
-    <h3>Software Engineering</h3>
+    <h3>Writing</h3>
     <p style="max-width: 450px; margin: 0 auto;">
-        Software Project, Website, Mobile Application, ETC
+      Computer Science, Data Science, Intelligent System, SDLC, and Machine Learning resources
     </p>
 
-    <!-- Kontainer untuk menampung proyek dari JSON -->
+    <!-- Kontainer untuk artikel yang akan dimuat dari JSON -->
     <div class="container mt-5">
-      <div class="row" id="software-projects">
-        <!-- Proyek-proyek akan dimuat secara dinamis di sini -->
+      <div class="row" id="article-container">
+        <!-- Artikel akan dimuat di sini secara dinamis -->
       </div>
     </div>
   </div>
 </section>
 
-
-
 <!-- Divider -->
 <div class="mt-5 d-flex justify-content-center">
     <hr style="border-top: 1px solid #808080; width: 40%;">
 </div>
-
 
 <footer class="footer-container bg-white text-center p-4 border-top">
   <div>
@@ -48,14 +46,14 @@
   </div>
 </footer>
 
-<!-- Script untuk memanggil data JSON dan menampilkan proyek -->
+<!-- Script untuk memuat artikel dari artikel.json -->
 <script>
-  fetch('json/softwareEngineeringProject.json')
+  fetch('../json/artikel.json')
     .then(response => response.json())
     .then(data => {
-      const container = document.getElementById('software-projects');
+      const container = document.getElementById('article-container');
 
-      // Looping melalui setiap item dalam JSON dan membuat elemen HTML untuk menampilkannya
+      // Loop untuk membuat elemen HTML secara dinamis untuk setiap artikel
       data.forEach(item => {
         const col = document.createElement('div');
         col.className = 'col-md-3 mb-4';
